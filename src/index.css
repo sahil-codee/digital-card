@@ -1,13 +1,173 @@
+* {
+    margin: 0;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #1A1B21;
+    color: #FFFF;
+}
+.card {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 375px;
+    top: 53px;
+    background-color: #23252C;
+    border: 2px solid #5093E2;
+}
+.card-img {
+    background-image: url('/src/Images/Rectangle.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+}
+.card-data {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background-color: #1A1B21;
+}
+.card-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 21px;
+}
+.card-para {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    padding-top: 6px;
+}
+.card-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 14px;
+}
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+}
+.card-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px 9px 30px;
+    background: #FFFFFF;
+    /* gray/300 */
+    margin-right: 20px;
+
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin-bottom: 33px;
+}
+.card-linkedin {
+    background-image: url('./Images/Linkedin.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 30px 9px 30px;
+    background: #5093E2;
+    /* shadow/sm */
+    
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 33px;
+}
+.card-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0 36px 0 34px;
+}
+.card-content {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    padding: 0 36px 24px 34px;
+    /* or 15px */
+}
+.card-icon {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.card-twitter {
+    background-image: url('./Images/Twitter.png');
+    position: absolute;
+    left: 20%;
+    right: 61.09%;
+    top: 29%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+}
+.card-facebook {
+    background-image: url('./Images/Facebook.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+    right: 52.18%;
+    top: 29%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+}
+.card-instagram {
+    background-image: url('./Images/Instagram.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    right: 43.27%;
+    top: 29%;
+    bottom: 7.37%;
+    width: 25px;
+    height: 25px;
+}
+.card-github {
+    background-image: url('./Images/GitHub.png');
+    position: absolute;
+    left: 65%;
+    right: 34.45%;
+    top: 29%;
+    bottom: 7.32%;
+    width: 25px;
+    height: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
