@@ -7,9 +7,9 @@ function Card() {
         <div className='card-img'>
         </div>
         <div className='card-data'> 
-        <h1 className='card-header'>Sahil Bakshi</h1>
+        <h1 className='card-header'>Laura Smith</h1>
         <p className='card-para'>Frontend Developer</p>
-        <p className='card-link'>sahilbakshi.website</p>
+        <p className='card-link'>laurasmith.website</p>
         <div className='card-buttons'>
         <button className='card-email'>Email</button>
         <button className='card-linkedin'>LinkedIn</button>
